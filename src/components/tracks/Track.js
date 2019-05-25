@@ -11,7 +11,7 @@ const Track = (props) => {
           <p className="card-text">
             <strong><i className="fas fa-play"></i> Track</strong>: {track.track_name}
             <br/>
-            <strong><i className="fas fa-compact-disc"></i> Alblum</strong>:
+            <strong><i className="fas fa-compact-disc"></i> Album</strong>:
             {track.album_name}
           </p>
           <Link
